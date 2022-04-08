@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import {Wrapper, Card, Gradient } from "./Styled";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { Link } from "react-router-dom";
-import '@splidejs/react-splide/css';
+
 
 const Popular = () => {
 	const [popular, setPopular] = useState([]);

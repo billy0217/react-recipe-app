@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {Wrapper, Card, Gradient } from "./Styled";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import '@splidejs/react-splide/css';
 import { Link } from "react-router-dom";
 
 const Veggie = () => {
