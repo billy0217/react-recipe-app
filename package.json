@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "env-cmd": "^10.1.0",
     "eslint-config-react-app": "^7.0.0",
     "framer-motion": "^6.2.9",
     "react": "^18.0.0",
@@ -21,7 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:production": "env-cmd -f .env.production.local react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +45,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
+    "dotenv": "^16.0.0",
     "jest-watch-typeahead": "^0.6.5",
     "react-app-env": "^1.2.3",
     "react-error-overlay": "^6.0.9"
